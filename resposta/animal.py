@@ -15,9 +15,9 @@ class Animal:
 
     def adulto_especie (self):
         if self.adulto == True:
-            print(f"{self.especies} é um adulto.")
+             print(f"o {self.especies} é um adulto.")
         elif self.adulto == False:
-            print(f"{self.especies} é um filhote.")
+            print(f"o {self.especies} é um filhote.")    
 
     def mostrar_informações (self):
         print(f"o animal de tal caracteristica é da especie {self.especies} com a descrição {self.descricao}, tem uma idade de {self.idade} anos, pesa uns {self.peso}kg e o")
@@ -25,14 +25,29 @@ class Animal:
 
     def alimentar (self, quantidade):
         if self.peso > quantidade : 
-            quantidade += self.peso
-            print(f"seu/sua {self.especies} tinha o total de {self.peso}kg e agora tem o total de {quantidade}kg.")
+            self.peso += quantidade
+            print(f"seu/sua {self.especies} tem o total de {self.peso}kg atualmente.")
         elif self.peso < quantidade:
             print(f" error")
 
-animal1 = Animal ("lobo guara","canídeo endêmico da América do Sul",1 ,20.2,False)
+    def buscar_alimento (self):
+        if self.adulto == True:
+            print(f"o {self.especies} é um adulto, ou seja, ele ja pode caçar seus alimentos.Na sua caça conseguiu.")
+            quantidade = int (input("Quantos quantidade de alimento voce quer adicionar para o animal? "))
+            
+            self.alimentar(quantidade)
+        elif self.adulto == False:
+            print(f"o {self.especies} é um filhote, então ele não pode caçar, pois depende dos seus pais.")
+
+animal1 = Animal ("lobo guara","canídeo endêmico da América do Sul",1 ,20.2,True)
 animal1.mostrar_informações()
 
-quantidade = int (input("Quantos quantidade de alimento voce quer adicionar para o animal? "))
+print("--- --- ---")
 
+quantidade = int (input("Quantos quantidade de alimento voce quer adicionar para o animal? "))
 animal1.alimentar(quantidade)
+
+print("--- --- ---")
+
+animal1.buscar_alimento()
+print("--- --- ---")
