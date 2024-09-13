@@ -2,6 +2,12 @@
 
 Esse é o repositório base para as tarefas da Tutoria de Aprendizagem de Laboratório (TAL) da disciplina de PEOO.
 
+## Instruções
+
+- Siga essas instruções desse [tutorial](exemplos/github.md) para saber como criar uma conta e usar o Github.
+
+- O Github será util durante todo o curso de Informática para Internet (e até depois).
+
 ---
 
 ## Atividade 01 - Classes
