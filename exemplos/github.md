@@ -18,7 +18,7 @@ Para esse tutorial é necessário ter instalado na sua máquina:
 ---
 
 ## Crie uma conta
-- Acesse [github.com/signup](https://github.com/signup) e crie sua conta. Recomendo usar seu email pessoal.
+- Acesse [github.com/signup](https://github.com/signup) e crie sua conta. Recomendo usar seu `email pessoal`.
 
 ![github-tutorial](img/git-1.jpg)
 
@@ -33,9 +33,11 @@ Para esse tutorial é necessário ter instalado na sua máquina:
 
 - Clique em `Edit Profile` e coloque seu nome e sobrenome.
 
-![github-tutorial](img/git-5.jpg)
-
 - Se quiser, coloque uma foto de perfil também!
+
+> Se liga nesse Antes e Depois!
+>
+>![github-tutorial](img/git-19.jpg)
 
 ---
 
@@ -46,11 +48,11 @@ Para esse tutorial é necessário ter instalado na sua máquina:
 
 ![github-tutorial](img/git-6.jpg)
 
-- Clique em `Create Fork`.
+- Espere a página carregar e clique em `Create Fork`.
 
 ![github-tutorial](img/git-7.jpg)
 
-Agora você tem uma "cópia" do repositório de atividades para enviar as repostas.
+Agora você tem uma cópia do repositório de atividades para enviar as repostas.
 
 ---
 
@@ -87,7 +89,7 @@ Depois de criar novos arquivos ou fazer alterações, você pode enviar essas mu
 
 ![github-tutorial](img/git-12.jpg)
 
-- No terminal, digite os comando seguir:
+- No terminal, digite os comando seguir. Seu `email` e `username` devem ser iguais ao Github, assim sua conta será reconhecida.
 
 ```powershell
 git config --global user.email "seu-email"
@@ -97,19 +99,15 @@ git config --global user.email "seu-email"
 git config --global user.name "seu-username"
 ```
 
-**ATENÇÃO:** Seu `email` e `username` devem ser iguais ao Github, assim sua conta será reconhecida.
-
-
 - Com as alterações feitas, acesse a aba `Source Control`.
-
-![github-tutorial](img/git-13.jpg)
-
 
 - Adicione os arquivos de `Changes` para `Staged`.
 
+![github-tutorial](img/git-13.jpg)
+
 - Adicione uma mensagem para seu commit.
 
-- Clique em `Commit` e `Sync Changes`
+- Clique em `Commit` e, depois de carregar, `Sync Changes`
 
 ![github-tutorial](img/git-15.jpg)
 
@@ -118,7 +116,7 @@ git config --global user.name "seu-username"
 
 ![github-tutorial](img/git-18.jpg)
 
-Agora as suas alterações estão no repositório do Github.
+Agora as suas alterações estão no repositório do Github!
 
 ![github-tutorial](img/git-2.jpg)
 
