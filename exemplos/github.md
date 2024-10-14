@@ -42,6 +42,9 @@ Para esse tutorial é necessário ter instalado na sua máquina:
 ---
 
 ## Crie um fork
+
+Fork é como se fosse um cópia de um repositório de outra pessoa, mas no fork você pode fazer alterações a vontade!
+
 - Acesse o [repositório das Atividades do TAL](https://github.com/dvanael/tal-peoo-atividades/), e crie um fork para seu usuário.
 
 - Clique em `Fork`.
@@ -69,7 +72,7 @@ Agora você tem uma cópia do repositório de atividades para enviar as repostas
 
 ![github-tutorial](img/git-10.jpg)
 
-- Escolha uma pasta salvar o repositório.
+- Escolha uma pasta para salvar o repositório.
 
 O VSCode vai automaticamente perguntar se você quer abrir a pasta do repositório.
 
@@ -89,14 +92,14 @@ Depois de criar novos arquivos ou fazer alterações, você pode enviar essas mu
 
 ![github-tutorial](img/git-12.jpg)
 
-- No terminal, digite os comando seguir. Seu `email` e `username` devem ser iguais ao Github, assim sua conta será reconhecida.
+- No terminal, digite os comando seguir. Seu `email` deve ser iguais ao Github, assim sua conta será reconhecida.
 
 ```powershell
 git config --global user.email "seu-email"
 ```
 
 ```powershell
-git config --global user.name "seu-username"
+git config --global user.name "Nome Sobrenome"
 ```
 
 - Com as alterações feitas, acesse a aba `Source Control`.
