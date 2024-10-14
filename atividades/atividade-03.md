@@ -1,13 +1,13 @@
-# Atividade 01
+# Atividade 03
 
 ## Explicações
 
-A **herança** é um principio que permite a uma classe herdar atributos e métodos de outra classe. Isso ajuda na reusabilidade de código e facilita a manutenção. Por exemplo, classe `Animal` pode ter atributos como `nome` e `idade`, e suas subclasses, como `Cachorro` e `Gato`, herdam esses atributos.
+A **herança** é um princípio que permite a uma classe herdar atributos e métodos de outra classe. Isso ajuda na reusabilidade do código e facilita a manutenção. Por exemplo, classe `Animal` pode ter atributos como `nome` e `idade`, e suas subclasses, como `Cachorro` e `Gato`, herdam esses atributos.
 
 
-O **polimorfismo** é quando objetos de direfentes classes sejam tratados como objetos de uma classe em comum. Por exemplo, um método de `Animal`, como `emitir_som`, pode ser passado para `Cachorro` ou `Gato` porque herdam de `Animal`, além disso os métodos podem ser reescritos, assim modificando o método para cada subclasse.
+O **polimorfismo** é quando objetos de direfentes classes são tratados como objetos de uma classe em comum. Por exemplo, um método de `Animal`, como `emitir_som`, pode ser passado para `Cachorro` ou `Gato` porque herdam de `Animal`, além disso os métodos podem ser reescritos, assim modificando o método para cada subclasse.
 
-Funções polimorficas tratam diferentes objeto de forma igualitária. Por exemplo, objetos `Cachorro` e `Gato` seram tratados como `Animal`, dessa forma tornando o código mais flexível reutilizável.
+Funções polimórficas tratam diferentes objeto de forma igualitária. Por exemplo, objetos `Cachorro` e `Gato` são tratados como `Animal`, dessa forma tornando o código mais flexível reutilizável.
 
 ---
 
@@ -80,32 +80,28 @@ fazer_animal_emitir_som(cat)
 
 4. Crie o método `atacar` para a classe base, esse método deve exibir que o personagem fez um ataque.
 
-- Exemplo de Saída:
-```
-  Goldofredo fez um ataque com força 50!
-```
-
+- Exemplo de Saída: `Goldofredo fez um ataque com força 50!`
 
 5. Crie classes que herdam de Personagem, utilize o `super` para definir os atributos da classe base. Defina os novos atributos no construtor da classe.
 
 - Guerreiro
     - Adicione o atributo arma (`string`)
 
-    - Sobreescreva o método `atacar` para exibir o uso da arma
+    - Sobrescreva o método `atacar` para exibir o uso da arma
 
     - `Goldofredo ataca com Machado!`
 
 - Mago
     - Adicione o atributo magia (`string`)
 
-    - Sobreescreva o método `atacar` para exibir o uso da magia
+    - Sobrescreva o método `atacar` para exibir o uso da magia
 
     - `Falin usa a magia Bola de Fogo!`
 
 - Arqueiro
     - Adicione o atributo flechas (`int`)
 
-    - Sobreescreva o método `atacar` para utilizar flechas, a cada ataque reduza uma flecha. Se a quantidade de flechas for menor ou igual a zero, não executa o ataque.
+    - Sobrescreva o método `atacar` para utilizar flechas, a cada ataque reduza uma flecha. Se a quantidade de flechas for menor ou igual a zero, não executa o ataque.
 
     - `Ashe dispara uma flecha! 0 flechas restantes.`
     - `Ashe não tem mais flechas.`
