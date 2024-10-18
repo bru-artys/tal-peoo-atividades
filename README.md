@@ -4,7 +4,7 @@ Esse é o repositório base para as tarefas da Tutoria de Aprendizagem de Labora
 
 ## Instruções
 
-- Siga essas instruções desse [tutorial](exemplos/github.md) para saber como criar uma conta e usar o Github.
+- Siga essas instruções desse [tutorial](exemplos/docs/github.md) para saber como criar uma conta e usar o Github.
 
 - O Github será util durante todo o curso de Informática para Internet (e até depois).
 
