@@ -8,6 +8,9 @@ Esse é o repositório base para as tarefas da Tutoria de Aprendizagem de Labora
 
 - O Github será util durante todo o curso de Informática para Internet (e até depois).
 
+- Para os desinteressados no Github, envie suas respostas para esse email.
+    
+    `anael.b@escolar.ifrn.edu.br`
 ---
 
 ## Atividade 01 - Classes
@@ -32,5 +35,14 @@ Esse é o repositório base para as tarefas da Tutoria de Aprendizagem de Labora
 
 - Crie uma diretório `respostas`.
 - Dentro do diretório siga as instruções da [atividade 03](atividades/atividade-03.md)
+- Utilize os nomes de arquivos sugeridos na atividade.
+- Faça o commit e push para o Github
+
+---
+
+## Atividade 04 - Funções Polimórficas
+
+- Crie uma diretório `respostas`.
+- Dentro do diretório siga as instruções da [atividade 04](atividades/atividade-04.md)
 - Utilize os nomes de arquivos sugeridos na atividade.
 - Faça o commit e push para o Github
