@@ -37,7 +37,7 @@ Para explicações e exemplos, acesse a [atividade 03](atividade-03.md).
 
     - Saída: `Nicole recebeu um bônus de R$ 250.50, seu salário é R$ 2250.50`
 
-5. Crie uma função chamada `informacoes_funcionario` que recebe um objeto `funcionario` como parâmetro. Essa função deve chamar os métodos `mostrar_detalhes` e `calcular_salario` do objeto recebido.
+5. Crie uma função, fora das classes, chamada `informacoes_funcionario` que recebe um objeto `funcionario` como parâmetro. Essa função deve chamar os métodos `mostrar_detalhes` e `calcular_salario` do objeto recebido.
 
 6. Crie um objeto para cada subclasse de Funcionario e execute a função `informacoes_funcionario` para cada um deles.
 
