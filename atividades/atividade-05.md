@@ -26,7 +26,7 @@ class ContaCorrente:
     def get_saldo(self):
         return self.__saldo
 
-    # Em métodos set recebemos um paramêtro e atribuimos seu valor ao atributo privado
+    # Em métodos set recebemos um parâmetro e atribuímos seu valor ao atributo privado
     def set_saldo(self, saldo):
         self.__saldo = saldo
 
@@ -43,7 +43,7 @@ class ContaCorrente:
       else:
           print("O valor do depósito deve ser positivo.")
 
-    # E é possivel retorna valores não cadastrados, fazendo calculos nas funções
+    # E é possível retornar valores não cadastrados, fazendo cálculos nas funções
     def simular_deposito(self, valor):
       return valor + self.get_saldo()
 
@@ -63,15 +63,15 @@ print(f"Deposito Simulado de {valor}. Saldo futuro: {conta.simular_deposito(valo
 
 **Instruções**: Crie um arquivo chamado `produtos.py` e faça as seguintes questões.
 
-1. Crie uma classe `Produtos` com os atributos privados `nome`, `preco`, `estoque`. Defina preco como `float`, estoque como `int` e nome como `string`. Defina os atributos no construtor.
+1. Crie uma classe `Produto` com os atributos **privados** `nome`, `preco`, `estoque`. Defina preco como `float`, estoque como `int` e nome como `string`. Defina os atributos no construtor.
 
 2. Crie o método `mostrar_detalhes` para a classe, esse método deve exibir as informações do produto.
 
 3. Crie o métodos `get` para todos os atributos. Crie métodos `set` para preço e nome, por padrão estoque é igual a 0.
 
-4. Crie o método `adicionar_estoque` para a classe, esse método deve receber `quantidade` como paramêtro. Se a quantidade for maior que zero, esse valor é adicionado ao estoque, se não um erro é exibido.
+4. Crie o método `adicionar_estoque` para a classe, esse método deve receber `quantidade` como parâmetro. Se a quantidade for maior que zero, esse valor é adicionado ao estoque, se não um erro é exibido.
 
-5. Crie o método `diminuir_estoque` para a classe, esse método deve receber `quantidade` como paramêtro. Se a quantidade for maior que zero e menor ou igual ao estoque atual, esse valor é subtraído ao estoque, se não um erro é exibido.
+5. Crie o método `diminuir_estoque` para a classe, esse método deve receber `quantidade` como parâmetro. Se a quantidade for maior que zero e menor ou igual ao estoque atual, esse valor é subtraído ao estoque, se não um erro é exibido.
 
 6. Crie um objeto da classe `Produto`, teste seus métodos `get` e `set` e faça a chamada dos outros métodos.
 
